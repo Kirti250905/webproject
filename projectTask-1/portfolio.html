@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <h1>Kirti Dhiman</h1>
+        <p>A passionate Web Developer experienced in HTML, CSS, JavaScript, and more.</p>
+      </div>
+    </div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="about section-block">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-img">
+          <img src="/web development.jpg" alt="Web development image" />
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>Hello, I'm Kirti. I’m a third-year B.Tech student at Maharishi Markandeshwar(Deemed To Be University), Mullana. I'm passionate about web development and love crafting interactive, user-friendly websites. Currently, I’m sharpening my front-end skills and working on exciting projects to build my portfolio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills section-block">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skills-list">
+        <li><strong>HTML</strong><br />Used to structure the content of web pages using elements like headings, paragraphs, and links.</li>
+        <li><strong>CSS</strong><br />Used to style and design web pages, including layout, colors, fonts, and responsiveness.</li>
+        <li><strong>JavaScript</strong><br />Adds interactivity to web pages, like form validation, animations, and dynamic updates.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="projects section-block">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Unit Converter</h3>
+            <p>This Unit Converter is a simple yet powerful web application built using HTML, CSS, and JavaScript. It allows users to convert values between different units of measurement such as length, weight, and temperature.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <a href="/unit_converter.jpg" target="_main" class="btn">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Voice Craft</h3>
+            <p>This Text to Speech Converter allows users to type or paste any text and hear it spoken aloud using the browser’s built-in speech synthesis feature.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <a href="/voice_craft.png" target="_main" class="btn">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="resume section-block">
+    <div class="container">
+      <h2 class="section-title">My Resume</h2>
+      <a href="/resume.pdf" target="_blank" type="pdf" download class="btn">Download My Resume</a>
+    </div>
+  </section>
+
+  <section class="contact-form section-block">
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <form action="mailto:kirtidhiman219@gmail.com" method="POST" enctype="text/plain">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact" class="contact section-block">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-content">
+        <p>Email: <a href="mailto:kirtidhiman219@gmail.com">kirtidhiman219@gmail.com</a></p>
+        <p>Phone: <a href="tel:+919306937807">+91-9306937807</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2025 Kirti | Made with HTML/CSS</p>
+    </div>
+  </footer>
+</body>
+</html>
